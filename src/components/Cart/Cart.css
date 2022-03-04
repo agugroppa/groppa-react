@@ -1,0 +1,43 @@
+.cartBcGr{
+    background-color: antiquewhite;
+}
+
+.emptyCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty{
+    margin: 10%;
+}
+
+.buttonHome{
+    margin-bottom: 25%;
+}
+
+.itemsInCart{
+    align-items: center;
+    padding: 5%;
+    display: flex;
+}
+
+ .totalPrice{
+    padding: 1%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.emptyButton{
+    margin: 1%;
+} 
+
+@media (max-width:500px) {
+    .itemsInCart{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      
+    }
+    }

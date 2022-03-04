@@ -1,0 +1,32 @@
+.item-cardDetail{
+    display: flex;
+    text-align: center;
+}
+
+.cardItemDetail{
+    display: flex;
+}
+
+.item-headerDetail{
+    font-size: x-large; 
+    font-style: italic;
+    padding-top: 5%;
+    display: flex;                          
+
+}
+
+.item-descriptionDetail{
+    padding-right: 10%;
+    padding-top: 5%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item-priceDetail{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.botonTerminarCompra{
+    border: black solid;
+}

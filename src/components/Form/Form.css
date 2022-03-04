@@ -1,0 +1,22 @@
+.formStyles{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media (max-width:500px) {
+    .formStyles{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 10%;
+    }
+    .buttonHome{
+     margin: 10%;
+    }
+    } 
